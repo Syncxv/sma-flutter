@@ -17,11 +17,13 @@ class CustomTabBar extends StatelessWidget {
     return TabBar(
       indicatorPadding: EdgeInsets.zero,
       indicator: const BoxDecoration(
-          border: Border(
-              top: BorderSide(
-        color: Colors.blue,
-        width: 3.0,
-      ))),
+        border: Border(
+          top: BorderSide(
+            color: Colors.blue,
+            width: 3.0,
+          ),
+        ),
+      ),
       onTap: onTap,
       tabs: icons
           .asMap()

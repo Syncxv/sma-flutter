@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sma_flutter/screens/graphql_test_screen.dart';
 import 'package:sma_flutter/widgets/widgets.dart';
 
 class NavScreen extends StatefulWidget {
@@ -18,7 +19,7 @@ class _NavScreenState extends State<NavScreen> {
         ),
       ),
     ),
-    Scaffold(),
+    TESTING12(),
   ];
   final List<IconData> _icons = const [Icons.home, Icons.chat];
   int _selectedIndex = 0;
